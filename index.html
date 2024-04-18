@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon Search App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <img
+        class="logo"
+        src="https://www.freecodecamp.org/news/content/images/size/w1600/2022/07/fcc_primary_large.jpg"
+        alt="freeCodeCamp logo"
+      />
+    </nav>
+    <h1 class="title">Pokémon Search App</h1>
+  </header>
+  <main>
+    <div class="main-box">
+      <label for="search-input">Search for Pokémon Name or ID:</label>
+      <input id="search-input" type="text" required></input>
+      <button id="search-button" type="submit">Search</button>
+      <div id="results">
+        <h3 id="pokemon-name"></h3>
+        <h3 id="pokemon-id"></h3>
+        <p id="weight"></p>
+        <p id="height"></p>
+        <div id="img"></div>
+        <div id="types"></div>
+      </div>
+      <div id="stats">
+        <table>
+          <thead>
+            <tr>
+              <td>Base</td>
+              <td>Stats</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HP:</td>
+              <td id="hp"></td>
+            </tr>
+            <tr>
+              <td>Attack:</td>
+              <td id="attack"></td>
+            </tr>
+            <tr>
+              <td>Defense:</td>
+              <td id="defense"></td>
+            </tr>
+            <tr>
+              <td>Sp. Attack:</td>
+              <td id="special-attack"></td>
+            </tr>
+            <tr>
+              <td>Sp. Defense:</td>
+              <td id="special-defense"></td>
+            </tr>
+            <tr>
+              <td>Speed:</td>
+              <td id="speed"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+  <script src='script.js'></script>
+</body>
+</html>
+
